@@ -2,15 +2,15 @@
 
 /**
  * factorial - gets factorial of. nnumbers
- * @no: integer
+ * @n: integer
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int factorial(int no)
+int factorial(int n)
 {
-	if (on < 0)
+	if (n < 0)
 		return (-1);
-	if (no == 0)
+	if (n == 0)
 		return (1);
-	return (no * factorial(no - 1));
+	return (n * factorial(n - 1));
 }
