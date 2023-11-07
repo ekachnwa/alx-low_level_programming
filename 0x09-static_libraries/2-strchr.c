@@ -10,6 +10,7 @@
 char *_strchr(char *s, char c)
 {
 	int h;
+
 	while (1)
 	{
 		h = *s++;
