@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 
 	numb1 = _atoi(argv[1]);
 	numb2 = _atoi(argv[2]);
-	result = num1 * num2;
+	result = numb1 * numb2;
 
 	printf("%d\n", result);
 
