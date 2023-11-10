@@ -2,20 +2,20 @@
 
 /**
  * op_add - calculates the sum of two integers
- * @s: first integer
- * @t: second integer
- * Return: sum of s and t
+ * @a: first integer
+ * @b: second integer
+ * Return: sum of a and b
  */
-int op_add(int s, int t)
+int op_add(int a, int b)
 {
-	return (s + t);
+	return (a + b);
 }
 
 /**
  * op_sub - calculates the difference of two integers
- * @s: first integer
- * @t: second integer
- * Return: difference of s and t
+ * @a: first integer
+ * @b: second integer
+ * Return: difference of a and b
  */
 int op_sub(int a, int b)
 {
@@ -24,33 +24,33 @@ int op_sub(int a, int b)
 
 /**
  * op_mul - calculates the product of two integers
- * @s: first integer
- * @t: second integert
- * Return: product of s and t
+ * @a: first integer
+ * @b: second integert
+ * Return: product of a and b
  */
-int op_mul(int s, int t)
+int op_mul(int a, int b)
 {
-	return (s * t);
+	return (a * b);
 }
 
 /**
  * op_div - calculates the division of two integers
- * @s: first integer
- * @t: second integer
- * Return: result of division of s and t
+ * @a: first integer
+ * @b: second integer
+ * Return: result of division of a and b
  */
-int op_div(int s, int t)
+int op_div(int a, int b)
 {
-	return (s / t);
+	return (a / b);
 }
 
 /**
  * op_mod - calculates remainder of division of two integers
- * @s: first integer
- * @t: second integer
- * Return: remainder of s divided t
+ * @a: first integer
+ * @b: second integer
+ * Return: remainder of a divided b
  */
-int op_mod(int t, int t)
+int op_mod(int a, int b)
 {
-	return (s % t);
+	return (a % b);
 }

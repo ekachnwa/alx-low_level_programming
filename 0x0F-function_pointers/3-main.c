@@ -1,15 +1,15 @@
 #include "3-calc.h"
 
 /**
- * main - goal is to perfroms simple operations
+ * main - program that perfroms simple calculation
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
 int main(int argc, char *argv[])
 {
 	int arg1, arg2, result;
-	char p;
+	char o;
 	int (*func)(int, int);
 
 	if (argc != 4)
@@ -29,9 +29,9 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	p = *argv[2];
+	o = *argv[2];
 
-	if ((p == '/' || p == '%') && arg2 == 0)
+	if ((o == '/' || o == '%') && arg2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
