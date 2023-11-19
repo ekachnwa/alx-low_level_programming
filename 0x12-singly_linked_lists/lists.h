@@ -4,14 +4,14 @@
 /**
  * struct list_s - singly list
  * @str: string - (malloc'ed string)
- * @l: length of the string
+ * @len: length of the string
  * @next: points to next node
  * Description: singly linked list node structure
  */
 typedef struct list_s
 {
 	char *str;
-	unsigned int l;
+	unsigned int len;
 	struct list_s *next;
 } list_t;
 
